@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* for tabs component*/
 .tabstyle{
     width: 100%;
     padding-bottom: 10px;
