@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.tabstyle{
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.selected{
+    border-bottom: 3px solid white;
+}
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: #60aeff;
+    transform-origin: 0%;
+  }
+  
